@@ -1,0 +1,8 @@
+
+1. npm init
+2. instalar graphql npm i apollo-server nodemon
+2. modificar los scripts para el inicio del proyecto
+ "scripts": {
+    "start":"node .",
+    "dev":"nodemon ."
+  }
