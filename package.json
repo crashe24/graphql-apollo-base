@@ -4,13 +4,17 @@
   "description": "Curso de graphql",
   "main": "index.js",
   "scripts": {
-    "start":"node .",
-    "dev":"nodemon ."
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "author": "Jorge Leon",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.13.0"
+    "apollo-server": "^3.13.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
